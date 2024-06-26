@@ -4,5 +4,12 @@
   "item.nomnomnom.cake_cheese": "Cheese Cake",
   "item.nomnomnom.cake_chocolate": "Chocolate Cake",
   "item.nomnomnom.cake_vanilla": "Vanilla Cake",
-  "item.nomnomnom.cake_strawberry": "Strawberry Cake"
+  "item.nomnomnom.cake_strawberry": "Strawberry Cake",
+
+  "item.nomnomnom.cookie_axolotl": "Axolotl Cookie",
+  "item.nomnomnom.cookie_cheese": "Cheese Cookie",
+  "item.nomnomnom.cookie_chocolate": "Chocolate Cookie",
+  "item.nomnomnom.cookie_strawberry": "Strawberry Cookie",
+  "item.nomnomnom.cookie_uranium": "Uranium Cookie",
+  "item.nomnomnom.cookie_vanilla": "Vanilla Cookie"
 }

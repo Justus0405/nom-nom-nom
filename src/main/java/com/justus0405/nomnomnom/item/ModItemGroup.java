@@ -8,7 +8,7 @@ public class ModItemGroup {
     public static final ItemGroup NOMNOMNOM_GROUP = new ItemGroup("nomNomNomTab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Items.BARRIER.getItem());
+            return new ItemStack(ModItems.COOKIE_AXOLOTL.get());
         }
     };
 }

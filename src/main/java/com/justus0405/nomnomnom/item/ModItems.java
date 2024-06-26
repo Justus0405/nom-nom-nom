@@ -30,6 +30,30 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(10).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    //COOKIES
+    public static final RegistryObject<Item> COOKIE_AXOLOTL = ITEMS.register("cookie_axolotl",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> COOKIE_CHEESE = ITEMS.register("cookie_cheese",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> COOKIE_CHOCOLATE = ITEMS.register("cookie_chocolate",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> COOKIE_STRAWBERRY = ITEMS.register("cookie_strawberry",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> COOKIE_URANIUM = ITEMS.register("cookie_uranium",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> COOKIE_VANILLA = ITEMS.register("cookie_vanilla",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
