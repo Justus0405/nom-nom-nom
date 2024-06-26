@@ -16,8 +16,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '1.16.5-1.0'
-group = 'com.justus0405.nom-nom-nom' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'nom-nom-nom'
+group = 'com.justus0405.nomnomnom' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'nomnomnom'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
@@ -58,7 +58,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                nom-nom-nom {
+                nomnomnom {
                     source sourceSets.main
                 }
             }
@@ -80,7 +80,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             mods {
-                nom-nom-nom {
+                nomnomnom {
                     source sourceSets.main
                 }
             }
@@ -102,10 +102,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'nom-nom-nom', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'nomnomnom', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                nom-nom-nom {
+                nomnomnom {
                     source sourceSets.main
                 }
             }
@@ -146,12 +146,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "nom-nom-nom",
-            "Specification-Vendor": "nom-nom-nomsareus",
+            "Specification-Title": "nomnomnom",
+            "Specification-Vendor": "nomnomnomsareus",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
             "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"nom-nom-nomsareus",
+            "Implementation-Vendor" :"nomnomnomsareus",
             "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
