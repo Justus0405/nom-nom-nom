@@ -92,6 +92,15 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    //MONSTER - DOESNT WORK BECAUSE IM DUMB x2
+    public static final RegistryObject<MilkBucketItem> MONSTER_GREEN = ITEMS.register("monster_green",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<MilkBucketItem> MONSTER_WHITE = ITEMS.register("monster_white",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
