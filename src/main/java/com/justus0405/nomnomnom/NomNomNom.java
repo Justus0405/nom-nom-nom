@@ -19,9 +19,11 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("examplemod")
+@Mod(NomNomNom.MOD_ID)
 public class NomNomNom
 {
+
+    public static final String MOD_ID = "nomnomnom";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
