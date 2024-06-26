@@ -116,6 +116,15 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    //OTHER - DOESNT WORK BECAUSE IM DUMB x3
+    public static final RegistryObject<MilkBucketItem> COFFEE = ITEMS.register("coffee",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<MilkBucketItem> TEA = ITEMS.register("tea",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
