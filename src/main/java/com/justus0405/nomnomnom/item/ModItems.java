@@ -99,7 +99,22 @@ public class ModItems {
     public static final RegistryObject<MilkBucketItem> MONSTER_WHITE = ITEMS.register("monster_white",
             () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    //MUFFINS
+    public static final RegistryObject<Item> MUFFIN_CHEESE = ITEMS.register("muffin_cheese",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    public static final RegistryObject<Item> MUFFIN_CHOCOLATE = ITEMS.register("muffin_chocolate",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MUFFIN_STRAWBERRY = ITEMS.register("muffin_strawberry",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MUFFIN_VANILLA = ITEMS.register("muffin_vanilla",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

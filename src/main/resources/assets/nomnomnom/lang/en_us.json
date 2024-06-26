@@ -25,6 +25,11 @@
   "item.nomnomnom.milkshake_vanilla": "Vanilla Milkshake",
 
   "item.nomnomnom.monster_green": "Green Monster",
-  "item.nomnomnom.monster_white": "White Monster"
+  "item.nomnomnom.monster_white": "White Monster",
+
+  "item.nomnomnom.muffin_cheese": "Cheese Muffin",
+  "item.nomnomnom.muffin_chocolate": "Chocolate Muffin",
+  "item.nomnomnom.muffin_strawberry": "Strawberry Muffin",
+  "item.nomnomnom.muffin_vanilla": "Vanilla Muffin"
 
 }
