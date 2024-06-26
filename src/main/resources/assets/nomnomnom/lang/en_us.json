@@ -11,5 +11,11 @@
   "item.nomnomnom.cookie_chocolate": "Chocolate Cookie",
   "item.nomnomnom.cookie_strawberry": "Strawberry Cookie",
   "item.nomnomnom.cookie_uranium": "Uranium Cookie",
-  "item.nomnomnom.cookie_vanilla": "Vanilla Cookie"
+  "item.nomnomnom.cookie_vanilla": "Vanilla Cookie",
+
+  "item.nomnomnom.milk_cheese": "Cheese Milk",
+  "item.nomnomnom.milk_chocolate": "Chocolate Milk",
+  "item.nomnomnom.milk_strawberry": "Strawberry Milk",
+  "item.nomnomnom.milk_vanilla": "Vanilla Milk"
+
 }

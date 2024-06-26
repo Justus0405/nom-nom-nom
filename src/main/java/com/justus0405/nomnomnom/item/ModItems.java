@@ -3,6 +3,7 @@ package com.justus0405.nomnomnom.item;
 import com.justus0405.nomnomnom.NomNomNom;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
+import net.minecraft.item.MilkBucketItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -54,6 +55,20 @@ public class ModItems {
     public static final RegistryObject<Item> COOKIE_VANILLA = ITEMS.register("cookie_vanilla",
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    //MILK - DOESNT WORK BECAUSE IM DUMB
+    public static final RegistryObject<MilkBucketItem> MILK_CHEESE = ITEMS.register("milk_cheese",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<MilkBucketItem> MILK_CHOCOLATE = ITEMS.register("milk_chocolate",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<MilkBucketItem> MILK_STRAWBERRY = ITEMS.register("milk_strawberry",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<MilkBucketItem> MILK_VANILLA = ITEMS.register("milk_vanilla",
+            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
