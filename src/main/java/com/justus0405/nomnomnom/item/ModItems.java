@@ -9,6 +9,8 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+//This code needs some drying up -Justus
+
 public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS =
@@ -69,6 +71,26 @@ public class ModItems {
     public static final RegistryObject<MilkBucketItem> MILK_VANILLA = ITEMS.register("milk_vanilla",
             () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    //MILKSHAKES
+    public static final RegistryObject<Item> MILKSHAKE_CHEESE = ITEMS.register("milkshake_cheese",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MILKSHAKE_CHOCOLATE = ITEMS.register("milkshake_chocolate",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MILKSHAKE_STRAWBERRY = ITEMS.register("milkshake_strawberry",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MILKSHAKE_URANIUM = ITEMS.register("milkshake_uranium",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MILKSHAKE_VANILLA = ITEMS.register("milkshake_vanilla",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

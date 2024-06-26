@@ -16,6 +16,12 @@
   "item.nomnomnom.milk_cheese": "Cheese Milk",
   "item.nomnomnom.milk_chocolate": "Chocolate Milk",
   "item.nomnomnom.milk_strawberry": "Strawberry Milk",
-  "item.nomnomnom.milk_vanilla": "Vanilla Milk"
+  "item.nomnomnom.milk_vanilla": "Vanilla Milk",
+
+  "item.nomnomnom.milkshake_cheese": "Cheese Milkshake",
+  "item.nomnomnom.milkshake_chocolate": "Chocolate Milkshake",
+  "item.nomnomnom.milkshake_strawberry": "Strawberry Milkshake",
+  "item.nomnomnom.milkshake_uranium": "Uranium Milkshake",
+  "item.nomnomnom.milkshake_vanilla": "Vanilla Milkshake"
 
 }
