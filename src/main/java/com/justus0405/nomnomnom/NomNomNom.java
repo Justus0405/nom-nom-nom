@@ -1,5 +1,6 @@
 package com.justus0405.nomnomnom;
 
+import com.justus0405.nomnomnom.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -19,7 +20,7 @@ public class NomNomNom
     public NomNomNom() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //ModItems.register(eventBus);
+        ModItems.register(eventBus);
 
         //eventBus.addListener(this::setup);
         //eventBus.addListener(this::clientSetup);
