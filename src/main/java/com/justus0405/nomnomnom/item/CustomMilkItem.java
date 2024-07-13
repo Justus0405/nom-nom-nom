@@ -6,7 +6,6 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
 import net.minecraft.item.UseAction;
 import net.minecraft.stats.Stats;
 import net.minecraft.util.ActionResult;
@@ -21,26 +20,25 @@ public class CustomMilkItem extends Item {
     }
 
     @Override
-    public ItemStack finishUsingItem(ItemStack itemStack, World world, LivingEntity entity) {
+    public ItemStack finishUsingItem(ItemStack itemStack, World world, LivingEntity entityLiving) {
         // Trigger consumption criteria and award stats for ServerPlayerEntity
-        if (entity instanceof ServerPlayerEntity) {
-            ServerPlayerEntity serverPlayer = (ServerPlayerEntity) entity;
+        if (entityLiving instanceof ServerPlayerEntity) {
+            ServerPlayerEntity serverPlayer = (ServerPlayerEntity) entityLiving;
             CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, itemStack);
             serverPlayer.awardStat(Stats.ITEM_USED.get(this));
         }
 
         // Decrease item stack size if the player is not in creative mode
-        if (entity instanceof PlayerEntity && !((PlayerEntity) entity).abilities.instabuild) {
+        if (entityLiving instanceof PlayerEntity && !((PlayerEntity) entityLiving).abilities.instabuild) {
             itemStack.shrink(1);
         }
 
-        // Remove all effects from the entity if on the server side
+        // Remove all effects from the entityLiving if on the server side
         if (!world.isClientSide) {
-            entity.removeAllEffects();
+            entityLiving.removeAllEffects();
         }
 
-        // Return an empty bucket if the item stack is empty, otherwise return the current item stack
-        return itemStack.isEmpty() ? new ItemStack(Items.BUCKET) : itemStack;
+        return itemStack;
     }
 
     @Override

@@ -3,13 +3,10 @@ package com.justus0405.nomnomnom.item;
 import com.justus0405.nomnomnom.NomNomNom;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
-import net.minecraft.item.MilkBucketItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-
-//This code needs some drying up -Justus
 
 public class ModItems {
 
@@ -58,7 +55,7 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    //MILK - DOESNT WORK BECAUSE IM DUMB
+    //MILK
     public static final RegistryObject<Item> MILK_CHEESE = ITEMS.register("milk_cheese",
             () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
@@ -92,12 +89,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    //MONSTER - DOESNT WORK BECAUSE IM DUMB x2
-    public static final RegistryObject<MilkBucketItem> MONSTER_GREEN = ITEMS.register("monster_green",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    //MONSTER
+    public static final RegistryObject<Item> MONSTER_GREEN = ITEMS.register("monster_green",
+            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<MilkBucketItem> MONSTER_WHITE = ITEMS.register("monster_white",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    public static final RegistryObject<Item> MONSTER_WHITE = ITEMS.register("monster_white",
+            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MUFFINS
     public static final RegistryObject<Item> MUFFIN_CHEESE = ITEMS.register("muffin_cheese",
@@ -116,12 +113,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    //OTHER - DOESNT WORK BECAUSE IM DUMB x3
-    public static final RegistryObject<MilkBucketItem> COFFEE = ITEMS.register("coffee",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    //OTHER
+    public static final RegistryObject<Item> COFFEE = ITEMS.register("coffee",
+            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<MilkBucketItem> TEA = ITEMS.register("tea",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    public static final RegistryObject<Item> TEA = ITEMS.register("tea",
+            () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
 
 
