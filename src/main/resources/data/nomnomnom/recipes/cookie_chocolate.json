@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "ABA",
+    " B "
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:wheat"
+    },
+    "B": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+  "result": {
+    "item": "nomnomnom:cookie_chocolate",
+    "count": 8
+  }
+}

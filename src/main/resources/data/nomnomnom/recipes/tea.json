@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB",
+    "C "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:potion"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    },
+    "O": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "nomnomnom:tea",
+    "count": 4
+  }
+}

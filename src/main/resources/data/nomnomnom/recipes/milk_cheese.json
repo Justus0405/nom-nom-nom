@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:milk_bucket"
+    },
+    "B": {
+      "item": "minecraft:yellow_dye"
+    }
+  },
+  "result": {
+    "item": "nomnomnom:milk_cheese",
+    "count": 16
+  }
+}
