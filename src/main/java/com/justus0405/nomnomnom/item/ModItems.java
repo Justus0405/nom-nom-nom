@@ -59,17 +59,17 @@ public class ModItems {
                     (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MILK - DOESNT WORK BECAUSE IM DUMB
-    public static final RegistryObject<MilkBucketItem> MILK_CHEESE = ITEMS.register("milk_cheese",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    public static final RegistryObject<Item> MILK_CHEESE = ITEMS.register("milk_cheese",
+            () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<MilkBucketItem> MILK_CHOCOLATE = ITEMS.register("milk_chocolate",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    public static final RegistryObject<Item> MILK_CHOCOLATE = ITEMS.register("milk_chocolate",
+            () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<MilkBucketItem> MILK_STRAWBERRY = ITEMS.register("milk_strawberry",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    public static final RegistryObject<Item> MILK_STRAWBERRY = ITEMS.register("milk_strawberry",
+            () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<MilkBucketItem> MILK_VANILLA = ITEMS.register("milk_vanilla",
-            () -> new MilkBucketItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+    public static final RegistryObject<Item> MILK_VANILLA = ITEMS.register("milk_vanilla",
+            () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MILKSHAKES
     public static final RegistryObject<Item> MILKSHAKE_CHEESE = ITEMS.register("milkshake_cheese",
