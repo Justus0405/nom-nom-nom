@@ -9,7 +9,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 ///////////////////////////////////////////////////////////////////
-// Thanks to Modding by Kaupenjoe by teaching me how to do this  //
+// Thanks to Modding by Kaupenjoe for teaching me how to do this //
 ///////////////////////////////////////////////////////////////////
 
 @Mod(NomNomNom.MOD_ID)
@@ -36,6 +36,7 @@ public class NomNomNom
 
     private void clientSetup(final FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
+
         });
     }
 }

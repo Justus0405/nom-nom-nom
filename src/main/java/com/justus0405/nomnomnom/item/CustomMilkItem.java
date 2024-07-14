@@ -19,9 +19,11 @@ public class CustomMilkItem extends Item {
         super(properties);
     }
 
+    // Called when the player finishes using this item
     @Override
     public ItemStack finishUsingItem(ItemStack itemStack, World world, LivingEntity entityLiving) {
-        // Trigger consumption criteria and award stats for ServerPlayerEntity
+
+        // Trigger criteria for consuming the item and award stat to player if applicable
         if (entityLiving instanceof ServerPlayerEntity) {
             ServerPlayerEntity serverPlayer = (ServerPlayerEntity) entityLiving;
             CriteriaTriggers.CONSUME_ITEM.trigger(serverPlayer, itemStack);
@@ -41,18 +43,21 @@ public class CustomMilkItem extends Item {
         return itemStack;
     }
 
+    // Returns the duration in ticks for which this item can be used
     @Override
     public int getUseDuration(ItemStack itemStack) {
-        return 32;  // Duration for using the item
+        return 32;
     }
 
+    // Returns the animation type (UseAction) for this item when being used
     @Override
     public UseAction getUseAnimation(ItemStack itemStack) {
-        return UseAction.DRINK;  // Animation for using the item
+        return UseAction.DRINK;
     }
 
+    // Handles the action when the player uses this item. Delegates to DrinkHelper for processing
     @Override
     public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
-        return DrinkHelper.useDrink(world, player, hand);  // Handle item use action
+        return DrinkHelper.useDrink(world, player, hand);
     }
 }

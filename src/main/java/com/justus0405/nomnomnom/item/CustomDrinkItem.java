@@ -40,7 +40,7 @@ public class CustomDrinkItem extends Item {
             itemStack.shrink(1);
         }
 
-        // Apply a movement speed effect to the entity for a duration (in ticks)
+        // Apply a movement speed effect to entityLiving for a duration (in ticks)
         if (!world.isClientSide) {
             entityLiving.addEffect(new EffectInstance(Effects.MOVEMENT_SPEED, 2400, 1));
         }
@@ -51,30 +51,30 @@ public class CustomDrinkItem extends Item {
     // Returns the duration in ticks for which this item can be used
     @Override
     public int getUseDuration(ItemStack itemStack) {
-        return 32; // Adjust as needed based on desired use duration
+        return 32;
     }
 
     // Returns the animation type (UseAction) for this item when being used
     @Override
     public UseAction getUseAnimation(ItemStack itemStack) {
-        return UseAction.DRINK; // Set to DRINK for drinking animation
+        return UseAction.DRINK;
     }
 
     // Returns the sound played when this item is consumed as a drink
     @Override
     public SoundEvent getDrinkingSound() {
-        return SoundEvents.GENERIC_DRINK; // Customize if needed
+        return SoundEvents.GENERIC_DRINK;
     }
 
     // Returns the sound played when this item is consumed as food
     @Override
     public SoundEvent getEatingSound() {
-        return SoundEvents.GENERIC_DRINK; // Assuming drink sound is used for eating as well
+        return SoundEvents.GENERIC_DRINK;
     }
 
     // Handles the action when the player uses this item. Delegates to DrinkHelper for processing
     @Override
     public ActionResult<ItemStack> use(World world, PlayerEntity player, Hand hand) {
-        return DrinkHelper.useDrink(world, player, hand); // Delegate to DrinkHelper if needed
+        return DrinkHelper.useDrink(world, player, hand);
     }
 }
