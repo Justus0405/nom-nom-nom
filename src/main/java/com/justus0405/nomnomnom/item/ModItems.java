@@ -16,44 +16,44 @@ public class ModItems {
     //CAKES
     public static final RegistryObject<Item> CAKE_CHEESE = ITEMS.register("cake_cheese",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(10).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(12).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> CAKE_CHOCOLATE = ITEMS.register("cake_chocolate",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(10).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(12).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> CAKE_VANILLA = ITEMS.register("cake_vanilla",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(10).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(12).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> CAKE_STRAWBERRY = ITEMS.register("cake_strawberry",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(10).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(12).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //COOKIES
     public static final RegistryObject<Item> COOKIE_AXOLOTL = ITEMS.register("cookie_axolotl",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> COOKIE_CHEESE = ITEMS.register("cookie_cheese",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> COOKIE_CHOCOLATE = ITEMS.register("cookie_chocolate",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> COOKIE_STRAWBERRY = ITEMS.register("cookie_strawberry",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> COOKIE_URANIUM = ITEMS.register("cookie_uranium",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> COOKIE_VANILLA = ITEMS.register("cookie_vanilla",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MILK
     public static final RegistryObject<Item> MILK_CHEESE = ITEMS.register("milk_cheese",
@@ -71,23 +71,23 @@ public class ModItems {
     //MILKSHAKES
     public static final RegistryObject<Item> MILKSHAKE_CHEESE = ITEMS.register("milkshake_cheese",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MILKSHAKE_CHOCOLATE = ITEMS.register("milkshake_chocolate",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MILKSHAKE_STRAWBERRY = ITEMS.register("milkshake_strawberry",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MILKSHAKE_URANIUM = ITEMS.register("milkshake_uranium",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MILKSHAKE_VANILLA = ITEMS.register("milkshake_vanilla",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MONSTER
     public static final RegistryObject<Item> MONSTER_GREEN = ITEMS.register("monster_green",
@@ -99,19 +99,19 @@ public class ModItems {
     //MUFFINS
     public static final RegistryObject<Item> MUFFIN_CHEESE = ITEMS.register("muffin_cheese",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MUFFIN_CHOCOLATE = ITEMS.register("muffin_chocolate",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MUFFIN_STRAWBERRY = ITEMS.register("muffin_strawberry",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MUFFIN_VANILLA = ITEMS.register("muffin_vanilla",
             () -> new Item(new Item.Properties().food
-                    (new Food.Builder().alwaysEat().nutrition(5).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //OTHER
     public static final RegistryObject<Item> COFFEE = ITEMS.register("coffee",
