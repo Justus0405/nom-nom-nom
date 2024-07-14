@@ -29,7 +29,15 @@ The Nom Nom Nom mod aims to diversify the food options in Minecraft, providing p
 
 # FAQ #
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut l
+"Am I allowed to use this mod for my modpack?"
+ - Yes
+
+"Do you plan on making a Fabric version?"
+ - I'm still very inexperienced when it comes to modding Minecraft, and I still have much to learn,
+ - but I do plan on porting my mods to different modloaders once I'm more advanced.
+
+"Pls INSERT_VERSION_HERE"
+ - As stated before, I'm still very inexperienced. Once I become more advanced, I plan to port my mods to other versions as well.
 
 # Credits #
 
