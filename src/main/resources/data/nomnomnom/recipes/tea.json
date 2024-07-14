@@ -5,13 +5,13 @@
     "C "
   ],
   "key": {
-    "#": {
+    "A": {
       "item": "minecraft:potion"
     },
-    "S": {
+    "B": {
       "item": "minecraft:sugar"
     },
-    "O": {
+    "C": {
       "item": "minecraft:oak_leaves"
     }
   },
