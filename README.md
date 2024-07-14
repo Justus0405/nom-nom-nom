@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 
 # Discord #
 
-<a href="https://discord.gg/E2Bp7GtcaA" rel="Join my Discord!">![shields](https://img.shields.io/discord/1060607505186684978?logo=Discord&style=for-the-badge)</a>
+<a href="https://discord.gg/E2Bp7GtcaA" >![shields](https://img.shields.io/discord/1060607505186684978?logo=Discord&style=for-the-badge)</a>
 
 # FAQ #
 
