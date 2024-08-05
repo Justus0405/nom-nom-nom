@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "AB",
+      "C "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:potion"
+      },
+      "B": {
+        "item": "minecraft:sugar"
+      },
+      "C": {
+        "item": "minecraft:orange_dye"
+      }
+    },
+    "result": {
+      "item": "nomnomnom:monster_mango",
+      "count": 1
+    }
+  }

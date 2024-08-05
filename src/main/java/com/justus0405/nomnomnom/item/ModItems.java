@@ -96,6 +96,9 @@ public class ModItems {
     public static final RegistryObject<Item> MONSTER_WHITE = ITEMS.register("monster_white",
             () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    public static final RegistryObject<Item> MONSTER_MANGO = ITEMS.register("monster_mango",
+            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
     //MUFFINS
     public static final RegistryObject<Item> MUFFIN_CHEESE = ITEMS.register("muffin_cheese",
             () -> new Item(new Item.Properties().food
