@@ -25,7 +25,7 @@ The Nom Nom Nom mod aims to diversify the food options in Minecraft, providing p
 
 # Discord #
 
-<a href="https://discord.gg/E2Bp7GtcaA" >![shields](https://img.shields.io/discord/1060607505186684978?logo=Discord&style=for-the-badge)</a>
+<a href="https://discord.gg/E2Bp7GtcaA" >![shields](https://img.shields.io/discord/1060607505186684978?logo=Discord&colorA=1e1e2e&colorB=a6e3a1&style=for-the-badge)</a>
 
 # FAQ #
 
