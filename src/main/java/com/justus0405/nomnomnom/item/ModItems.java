@@ -93,13 +93,13 @@ public class ModItems {
     public static final RegistryObject<Item> MONSTER_GREEN = ITEMS.register("monster_green",
             () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<Item> MONSTER_WHITE = ITEMS.register("monster_white",
+    public static final RegistryObject<Item> MONSTER_MANGO = ITEMS.register("monster_mango",
             () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MONSTER_PINK = ITEMS.register("monster_pink",
             () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
-    public static final RegistryObject<Item> MONSTER_MANGO = ITEMS.register("monster_mango",
+    public static final RegistryObject<Item> MONSTER_WHITE = ITEMS.register("monster_white",
             () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MUFFINS
