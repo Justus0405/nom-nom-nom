@@ -91,13 +91,16 @@ public class ModItems {
 
     //MONSTER
     public static final RegistryObject<Item> MONSTER_GREEN = ITEMS.register("monster_green",
-            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+            () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MONSTER_WHITE = ITEMS.register("monster_white",
-            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+            () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MONSTER_PINK = ITEMS.register("monster_pink",
+            () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> MONSTER_MANGO = ITEMS.register("monster_mango",
-            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+            () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //MUFFINS
     public static final RegistryObject<Item> MUFFIN_CHEESE = ITEMS.register("muffin_cheese",
@@ -118,7 +121,7 @@ public class ModItems {
 
     //OTHER
     public static final RegistryObject<Item> COFFEE = ITEMS.register("coffee",
-            () -> new CustomDrinkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+            () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     public static final RegistryObject<Item> TEA = ITEMS.register("tea",
             () -> new CustomMilkItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));

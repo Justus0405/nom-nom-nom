@@ -1,6 +1,7 @@
 package com.justus0405.nomnomnom.item;
 
 import net.minecraft.advancements.CriteriaTriggers;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -15,11 +16,16 @@ import net.minecraft.util.DrinkHelper;
 import net.minecraft.util.Hand;
 import net.minecraft.util.SoundEvent;
 import net.minecraft.util.SoundEvents;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
 
-public class CustomDrinkItem extends Item {
+import javax.annotation.Nullable;
+import java.util.List;
 
-    public CustomDrinkItem(Item.Properties properties) {
+public class CustomEnergyItem extends Item {
+
+    public CustomEnergyItem(Item.Properties properties) {
         super(properties);
     }
 
@@ -46,6 +52,16 @@ public class CustomDrinkItem extends Item {
         }
         
         return itemStack;
+    }
+
+    // Adds item tooltips
+    @Override
+    public void appendHoverText(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
+        tooltip.add(new TranslationTextComponent("tooltip.nomnomnom.customenergyitem1"));
+        tooltip.add(new TranslationTextComponent("tooltip.nomnomnom.customenergyitem2"));
+        tooltip.add(new TranslationTextComponent("tooltip.nomnomnom.customenergyitem3"));
+        tooltip.add(new TranslationTextComponent("tooltip.nomnomnom.customenergyitem4"));
+        super.appendHoverText(stack, worldIn, tooltip, flagIn);
     }
 
     // Returns the duration in ticks for which this item can be used

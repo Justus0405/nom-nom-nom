@@ -13,6 +13,8 @@
   "item.nomnomnom.cookie_uranium": "Uranium Cookie",
   "item.nomnomnom.cookie_vanilla": "Vanilla Cookie",
 
+  "tooltip.nomnomnom.custommilkitem1": "§7Removes potion effects§r",
+
   "item.nomnomnom.milk_cheese": "Cheese Milk",
   "item.nomnomnom.milk_chocolate": "Chocolate Milk",
   "item.nomnomnom.milk_strawberry": "Strawberry Milk",
@@ -24,8 +26,15 @@
   "item.nomnomnom.milkshake_uranium": "Uranium Milkshake",
   "item.nomnomnom.milkshake_vanilla": "Vanilla Milkshake",
 
+  "tooltip.nomnomnom.customenergyitem1": "§9Speed II (2:00)§r",
+  "tooltip.nomnomnom.customenergyitem2": "",
+  "tooltip.nomnomnom.customenergyitem3": "§5When Applied:§r",
+  "tooltip.nomnomnom.customenergyitem4": "§9+40% Speed§r",
+
   "item.nomnomnom.monster_green": "Green Monster",
   "item.nomnomnom.monster_white": "White Monster",
+  "item.nomnomnom.monster_pink": "Pink Monster",
+  "item.nomnomnom.monster_mango": "Mango Monster",
 
   "item.nomnomnom.muffin_cheese": "Cheese Muffin",
   "item.nomnomnom.muffin_chocolate": "Chocolate Muffin",

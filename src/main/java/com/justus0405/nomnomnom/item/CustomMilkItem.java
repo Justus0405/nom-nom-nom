@@ -1,6 +1,7 @@
 package com.justus0405.nomnomnom.item;
 
 import net.minecraft.advancements.CriteriaTriggers;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -11,7 +12,12 @@ import net.minecraft.stats.Stats;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.DrinkHelper;
 import net.minecraft.util.Hand;
+import net.minecraft.util.text.ITextComponent;
+import net.minecraft.util.text.TranslationTextComponent;
 import net.minecraft.world.World;
+
+import javax.annotation.Nullable;
+import java.util.List;
 
 public class CustomMilkItem extends Item {
 
@@ -41,6 +47,13 @@ public class CustomMilkItem extends Item {
         }
 
         return itemStack;
+    }
+
+    // Adds item tooltips
+    @Override
+    public void appendHoverText(ItemStack stack, @Nullable World worldIn, List<ITextComponent> tooltip, ITooltipFlag flagIn) {
+        tooltip.add(new TranslationTextComponent("tooltip.nomnomnom.custommilkitem1"));
+        super.appendHoverText(stack, worldIn, tooltip, flagIn);
     }
 
     // Returns the duration in ticks for which this item can be used
