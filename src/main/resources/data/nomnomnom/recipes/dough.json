@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "nomnomnom:water_can"
+    },
+    {
+      "item": "nomnomnom:salt"
+    }
+  ],
+  "result": {
+    "item": "nomnomnom:dough",
+    "count": 1
+  }
+}

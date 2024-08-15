@@ -3,6 +3,8 @@ package com.justus0405.nomnomnom.item;
 import com.justus0405.nomnomnom.NomNomNom;
 import net.minecraft.item.Food;
 import net.minecraft.item.Item;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.potion.Effects;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,6 +14,22 @@ public class ModItems {
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, NomNomNom.MOD_ID);
+
+    //INGREDIENTS
+    public static final RegistryObject<Item> WATER_CAN = ITEMS.register("water_can",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> CHEESE = ITEMS.register("cheese",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(3).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> DOUGH = ITEMS.register("dough",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(3).saturationMod(1).effect(
+                            () -> new EffectInstance(Effects.CONFUSION,200,0),0.25f).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> SALT = ITEMS.register("salt",
+            () -> new Item(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
     //CAKES
     public static final RegistryObject<Item> CAKE_CHEESE = ITEMS.register("cake_cheese",
