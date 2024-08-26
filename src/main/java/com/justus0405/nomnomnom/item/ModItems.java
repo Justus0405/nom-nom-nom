@@ -31,6 +31,10 @@ public class ModItems {
     public static final RegistryObject<Item> SALT = ITEMS.register("salt",
             () -> new Item(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    public static final RegistryObject<Item> TOAST = ITEMS.register("toast",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().alwaysEat().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
     //CAKES
     public static final RegistryObject<Item> CAKE_CHEESE = ITEMS.register("cake_cheese",
             () -> new Item(new Item.Properties().food
