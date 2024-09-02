@@ -17,7 +17,7 @@ apply plugin: 'maven-publish'
 
 version = 'Forge-1.16.5-v0.2'
 group = 'com.justus0405.nomnomnom' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'nomnomnom'
+archivesBaseName = 'NomNomNom'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(8) // Mojang ships Java 8 to end users, so your mod should target Java 8.
 
