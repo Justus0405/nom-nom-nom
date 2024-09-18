@@ -1,6 +1,14 @@
-![nom-nom-nom](https://github.com/user-attachments/assets/756c8529-4048-4e77-9ada-02aa7b8e6d47)
+<img alt="Logo" src="https://github.com/user-attachments/assets/756c8529-4048-4e77-9ada-02aa7b8e6d47">
 
-# Nom Nom Nom for Minecraft 1.16.5 #
+<p align="center">
+    <a href="https://discord.gg/https://discord.com/invite/E2Bp7GtcaA"><img src="https://img.shields.io/discord/1060607505186684978?logo=Discord&colorA=1e1e2e&colorB=a6e3a1&style=for-the-badge"></a>
+        <a href="https://modrinth.com/mod/nom-nom-nom"><img src="https://img.shields.io/modrinth/dt/GFsG4tda?logo=Modrinth&colorA=1e1e2e&colorB=a6e3a1&style=for-the-badge"></a>
+    <a href="https://www.curseforge.com/minecraft/mc-mods/nom-nom-nom"><img src="https://img.shields.io/curseforge/dt/1082554?logo=Curseforge&colorA=1e1e2e&colorB=fab387&style=for-the-badge"></a>
+        <a href="https://github.com/Justus0405/nom-nom-nom/blob/forge-1.16.5/LICENSE"><img src="https://img.shields.io/github/license/Justus0405/nom-nom-nom?logo=Github&colorA=1e1e2e&colorB=f9e2af&style=for-the-badge"></a>
+    <a href="https://github.com/Justus0405/nom-nom-nom/releases"><img src="https://img.shields.io/github/v/release/justus0405/nom-nom-nom?logo=Github&colorA=1e1e2e&colorB=cdd6f4&style=for-the-badge"></a>
+</p>
+
+# Nom Nom Nom for Minecraft 1.16.5
 
 Nom Nom Nom is my first fully completed Minecraft mod, designed to enhance the culinary experience within the game by introducing a diverse array of new food items. This mod adds a variety of consumables, including:
 
@@ -23,22 +31,12 @@ Each of these items is available in a range of enticing flavors, including:
 
 The Nom Nom Nom mod aims to diversify the food options in Minecraft, providing players with new recipes and flavors to explore and enjoy.
 
-# Discord #
-
-<a href="https://discord.gg/E2Bp7GtcaA" >![shields](https://img.shields.io/discord/1060607505186684978?logo=Discord&colorA=1e1e2e&colorB=a6e3a1&style=for-the-badge)</a>
-
-# FAQ #
+# FAQ
 
 "Am I allowed to use this mod for my modpack?"
  - Yes
 
-"Do you plan on making a Fabric version?"
- - I'm still very inexperienced when it comes to modding Minecraft, and I still have much to learn,
- - but I do plan on porting my mods to different modloaders once I'm more advanced.
 
-"Pls INSERT_VERSION_HERE"
- - As stated before, I'm still very inexperienced. Once I become more advanced, I plan to port my mods to other versions as well.
-
-# Credits #
+# Credits
 
  - ghost.qwq (artist)
