@@ -13,8 +13,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 ///////////////////////////////////////////////////////////////////
 
 @Mod(NomNomNom.MOD_ID)
-public class NomNomNom
-{
+public class NomNomNom {
+    
     public static final String MOD_ID = "nomnomnom";
 
     public NomNomNom() {
