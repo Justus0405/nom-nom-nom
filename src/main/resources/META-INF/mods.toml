@@ -33,9 +33,7 @@ credits="ghost.qwq" #optional
 # A text field displayed in the mod UI
 authors="Justus0405" #optional
 # The description text for the mod (multi line!) (#mandatory)
-description='''
-A mod about yummy food :3
-'''
+description='''A mod about yummy food :3'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.nomnomnom]] #optional
     # the modid of the dependency
