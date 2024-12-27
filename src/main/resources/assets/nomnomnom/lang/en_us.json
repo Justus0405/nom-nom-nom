@@ -13,7 +13,7 @@
   "item.nomnomnom.cookie_uranium": "Uranium Cookie",
   "item.nomnomnom.cookie_vanilla": "Vanilla Cookie",
 
-  "tooltip.nomnomnom.custommilkitem1": "§7Removes potion effects§r",
+  "tooltip.nomnomnom.custommilkitem1": "§8Removes potion effects§r",
 
   "item.nomnomnom.milk_cheese": "Cheese Milk",
   "item.nomnomnom.milk_chocolate": "Chocolate Milk",
@@ -31,10 +31,28 @@
   "tooltip.nomnomnom.customenergyitem3": "§5When Applied:§r",
   "tooltip.nomnomnom.customenergyitem4": "§9+40% Speed§r",
 
+  "tooltip.nomnomnom.goldenmonster1": "§9Regeneration II (0:05)§r",
+  "tooltip.nomnomnom.goldenmonster2": "§9Absorption I (2:00)§r",
+  "tooltip.nomnomnom.goldenmonster3": "§9Speed II (2:00)§r",
+  "tooltip.nomnomnom.goldenmonster4": "",
+  "tooltip.nomnomnom.goldenmonster5": "§5When Applied:§r",
+  "tooltip.nomnomnom.goldenmonster6": "§9+40% Speed§r",
+
+  "tooltip.nomnomnom.enchantedgoldenmonster1": "§9Regeneration II (0:20)§r",
+  "tooltip.nomnomnom.enchantedgoldenmonster2": "§9Absorption IV (2:00)§r",
+  "tooltip.nomnomnom.enchantedgoldenmonster3": "§9Speed II (5:00)§r",
+  "tooltip.nomnomnom.enchantedgoldenmonster4": "§9Resistance I (5:00)§r",
+  "tooltip.nomnomnom.enchantedgoldenmonster5": "§9Fire Resistance I (5:00)§r",
+  "tooltip.nomnomnom.enchantedgoldenmonster6": "",
+  "tooltip.nomnomnom.enchantedgoldenmonster7": "§5When Applied:§r",
+  "tooltip.nomnomnom.enchantedgoldenmonster8": "§9+40% Speed§r",
+
   "item.nomnomnom.monster_green": "Green Monster",
   "item.nomnomnom.monster_white": "White Monster",
   "item.nomnomnom.monster_pink": "Pink Monster",
   "item.nomnomnom.monster_mango": "Mango Monster",
+  "item.nomnomnom.monster_golden": "§bGolden Monster",
+  "item.nomnomnom.monster_enchanted_golden": "§dEnchanted Golden Monster",
 
   "item.nomnomnom.muffin_cheese": "Cheese Muffin",
   "item.nomnomnom.muffin_chocolate": "Chocolate Muffin",

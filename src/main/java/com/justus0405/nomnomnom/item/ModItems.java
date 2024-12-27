@@ -104,6 +104,12 @@ public class ModItems {
     public static final RegistryObject<Item> MONSTER_WHITE = ITEMS.register("monster_white",
             () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    public static final RegistryObject<Item> MONSTER_GOLDEN = ITEMS.register("monster_golden",
+            () -> new GoldenMonster(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MONSTER_ENCHANTED_GOLDEN = ITEMS.register("monster_enchanted_golden",
+            () -> new EnchantedGoldenMonster(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
     //MUFFINS
     public static final RegistryObject<Item> MUFFIN_CHEESE = ITEMS.register("muffin_cheese",
             () -> new Item(new Item.Properties().food
