@@ -59,7 +59,14 @@
   "item.nomnomnom.muffin_strawberry": "Strawberry Muffin",
   "item.nomnomnom.muffin_vanilla": "Vanilla Muffin",
 
+  "item.nomnomnom.toast_basic": "Toast",
+  "item.nomnomnom.toast_blueberry": "Blueberry Toast",
+  "item.nomnomnom.toast_peach": "Peach Toast",
+  "item.nomnomnom.toast_raspberry": "Raspberry Toast",
+  "item.nomnomnom.toast_strawberry": "Strawberry Toast",
+
   "item.nomnomnom.coffee": "Coffee",
-  "item.nomnomnom.tea": "Tea"
+  "item.nomnomnom.tea": "Tea",
+  "item.nomnomnom.fried_egg": "Fried Egg"
 
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smkoing",
+  "ingredient": {
+    "item": "minecraft:egg"
+  },
+  "result": "nomnomnom:fried_egg",
+  "experience": 0.1,
+  "cookingtime": 100
+}
