@@ -146,6 +146,28 @@ public class ModItems {
             () -> new Item(new Item.Properties().food
                     (new Food.Builder().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
 
+    // FAST FOOD
+    public static final RegistryObject<Item> KEBAB = ITEMS.register("kebab",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().nutrition(10).saturationMod(2).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> PIZZA_COOKED = ITEMS.register("pizza_cooked",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().nutrition(8).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    // SUSHI
+    public static final RegistryObject<Item> MAKI_FISH = ITEMS.register("maki_fish",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> MAKI_VEGAN = ITEMS.register("maki_vegan",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
+    public static final RegistryObject<Item> URAMAKI = ITEMS.register("uramaki",
+            () -> new Item(new Item.Properties().food
+                    (new Food.Builder().nutrition(6).saturationMod(1).build()).tab(ModItemGroup.NOMNOMNOM_GROUP)));
+
     //OTHER
     public static final RegistryObject<Item> COFFEE = ITEMS.register("coffee",
             () -> new CustomEnergyItem(new Item.Properties().tab(ModItemGroup.NOMNOMNOM_GROUP)));
