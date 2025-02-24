@@ -16,12 +16,17 @@ Each comes in flavors like cheese, chocolate, strawberry, vanilla, and... uraniu
 
 The mod is all about expanding your food choices and making your Minecraft meals more exciting.
 
+# Licenses
+- **Code**: This mod's code is licensed under the MIT License. See [LICENSE_CODE](https://github.com/Justus0405/nom-nom-nom/blob/forge-1.16.5/LICENSE_CODE).
+- **Assets**: The assets are licensed under the Attribution-NonCommercial-ShareAlike 4.0 International License. See [LICENSE_ASSETS](https://github.com/Justus0405/nom-nom-nom/blob/forge-1.16.5/LICENSE_ASSETS).
+
 # FAQ
 
 "Am I allowed to use this mod for my modpack?"
  - Yes
 
-
 # Credits
 
- - ghost.qwq (artist)
+ - ghost.qwq (Artwork)
+ - EchterTill (Artwork)
+ - Justus0405 (Code, Artwork)
