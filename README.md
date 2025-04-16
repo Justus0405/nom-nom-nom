@@ -10,7 +10,7 @@
 
 Nom Nom Nom is my first fully completed Minecraft mod, adding a variety of fun and flavorful food items to the game.
 
-You’ll be able to craft treats like cakes, cookies, milkshakes, muffins, coffee, tea, and even a unique energy drink.
+You’ll be able to craft treats like cakes, cookies, milkshakes, muffins, coffee, tea, kebab, pizza, maki, energy drinks and other little snacks.
 Each comes in flavors like cheese, chocolate, strawberry, vanilla, and... uranium (I know what you are :3).
 
 The mod is all about expanding your food choices and making your Minecraft meals more exciting.
